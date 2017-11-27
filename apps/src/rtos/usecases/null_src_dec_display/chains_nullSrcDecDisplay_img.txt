@@ -1,0 +1,18 @@
+digraph chains_nullSrcDecDisplay {
+
+       ColorScheme [shape=none, margin=0, label=<
+       <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+       <TR><TD bgcolor="lightblue">IPU1_0</TD></TR>
+       </TABLE>>];
+
+       /************** LINKS ************************/
+       NullSource [color=lightblue, style=filled]
+       Decode [color=lightblue, style=filled]
+       VPE [color=lightblue, style=filled]
+       Display [color=lightblue, style=filled]
+
+       /************** CONNECTIONS ************************/
+       VPE -> Display
+       Decode -> VPE
+       NullSource -> Decode
+}

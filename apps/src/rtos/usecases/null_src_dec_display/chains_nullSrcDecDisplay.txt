@@ -1,0 +1,3 @@
+UseCase: chains_nullSrcDecDisplay
+
+NullSource (IPU1_0) -> Decode -> VPE -> Display
