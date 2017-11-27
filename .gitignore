@@ -1,3 +1,7 @@
 apps/tools/
 docs/
+binaries/
+links_fw/include/config/
 
+*.out
+*.map
