@@ -1,0 +1,19 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "..\\ti_components\\os_tools\\windows\\xdctools_3_32_01_22_core\\gmake -C .\\build\\ -j depend",
+            "problemMatcher": []
+        },
+        {
+            "label": "Clean",
+            "type": "shell",
+            "command": "..\\ti_components\\os_tools\\windows\\xdctools_3_32_01_22_core\\gmake -C .\\build\\ clean",
+            "problemMatcher": []
+        }
+    ]
+}
