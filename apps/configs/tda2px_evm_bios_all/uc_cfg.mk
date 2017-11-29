@@ -1,6 +1,0 @@
-UC_iss_capture_isp_simcop_display=yes
-UC_iss_mult_capture_isp_2d_3d_sv_tda3x=yes
-UC_iss_mult_capture_isp_dewarp_3dsv_tda3xx=yes
-UC_saveDisFrame=yes
-
-UC_srv_calibration=yes

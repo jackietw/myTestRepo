@@ -1,2 +1,0 @@
-UC_iss_capture_isp_simcop_display=yes
-
