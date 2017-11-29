@@ -5,4 +5,4 @@ links_fw/include/config/
 
 *.out
 *.map
-build/2.txt
+*.stackdump

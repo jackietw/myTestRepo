@@ -4,9 +4,20 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build",
+            "label": "Build First",
             "type": "shell",
             "command": "..\\ti_components\\os_tools\\windows\\xdctools_3_32_01_22_core\\gmake -C .\\build\\ -j depend",
+            "problemMatcher": []
+        },
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "..\\ti_components\\os_tools\\windows\\xdctools_3_32_01_22_core\\gmake -C .\\build\\ -j"
+        },
+        {
+            "label": "Re-Build",
+            "type": "shell",
+            "command": ".\\buildAll.bat",
             "problemMatcher": []
         },
         {
